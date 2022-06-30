@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(255, 255, 255) !important;
+  position: relative;
+  line-height: 1;
+}
+
+
+.container{
+  margin-top: 0px;
+  width:400px;
+
+}
+
+.title-email-box{
+  height: 30px;
+  }
+
+  hr{
+    margin: 0px 4px 0px!important;
+  }
+  .email-line{
+    line-height: 1.5;
+    background: rgb(232, 241, 238);
+    margin-bottom: 0px;
+    padding: 5px 0px 5px;
+  }
+  .btn-circle {
+    width: 45px;
+    height: 45px;
+    line-height: 5px !important;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50% !important
+  }
+
+
+
+
+
+.title-email-list{
+font-size: 22px;
+font-weight: 600;
+}
+
+
+.email-time-pos{
+  width: 100%;
+  text-align:right;
+}
+
+
+.email-box{
+  list-style-type: none;
+  width:100%;
+  padding: 0px;
+  /* background: rgb(232, 241, 238); */
+  }
+
+.fa-lette{
+  margin-right: 10px;
+
+}
+
+
+.show {
+  display: block;
+}
+.hide {
+  display:none
+}
+
+/*----------------- modal window--------------- */
+/* слой затемнения */
+
+/* активируем слой затемнения и модальное окно */
+
+.one-email-modal-window{
+
+}
+.dm-overlay-show{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: block;
+/* анимация и время задержки */
+  -webkit-animation: fade .6s;
+  -moz-animation: fade .6s;
+  animation: fade .6s;
+}
+/* блочная таблица */
+.dm-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+/* ячейка блочной таблицы */
+.dm-cell {
+  display: table-cell;
+  padding: 0 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+/* модальный блок */
+.dm-modal {
+  display: inline-block;
+
+  padding: 20px;
+/* максимально возможная ширина */
+  width: 100%;
+  max-width:1100px;
+  background:   rgb(244, 250, 248);
+/* внешняя тень блока */
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+  color: fff;
+  text-align: left;
+/* анимация и время задержки */
+  -webkit-animation: fade .8s;
+  -moz-animation: fade .8s;
+  animation: fade .8s;
+}
+/* ---end modal window------ */
+
+
+/* анимация при появлении затемнения и блоков с содержанием */
+@-moz-keyframes fade {
+  from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+  from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+  from { opacity: 0; }
+to { opacity: 1 } }
