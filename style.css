@@ -22,8 +22,13 @@ body {
     line-height: 1.5;
     background: rgb(232, 241, 238, 0.5);
     margin-bottom: 0px;
-    padding: 5px 0px 5px;
+    padding: 5px 0px 3px;
+    cursor: pointer;
   }
+  .email-line:hover {
+    background: rgba(197, 236, 224, 0.5);
+  }
+
   .btn-circle {
     width: 45px;
     height: 45px;
